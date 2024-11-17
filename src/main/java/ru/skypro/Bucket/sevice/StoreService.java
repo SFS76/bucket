@@ -1,8 +1,9 @@
 package ru.skypro.Bucket.sevice;
 
 import java.util.List;
+import java.util.Set;
 
 public interface StoreService {
-    List<Integer> add(List<Integer> goods);
-    List<Integer> get();
+    Set<Integer> add(List<Integer> goods);
+    Set<Integer> get();
 }
